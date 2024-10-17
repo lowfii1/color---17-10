@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Com Grid super best mega blaster</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div id="nav">Menu</div>
+    <div id="main">Principal</div>
+    <div id="sidebar">Lateral</div>
+    <div id="section-1">Conteúdo1</div>
+    <div id="section-2">Conteúdo2</div>
+    <div id="section-3">Conteúdo3</div>
+    <div id="footer">Rodapé</div>
+    </div>
+</body>
+</html>
