@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Com Grid super best mega blaster</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .container{
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-areas: "nav nav nav nav"
+                                 "sidebar main main main"
+                                 "sidebar section-1 section-2 section-3"
+                                 "sidebar footer footer footer";
+                                 grid-gap: 0.5em;
+                                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+                                 font-size: 16px;
+                                 font-weight: bold;
+        }
+        #nav{
+            background-color: #BB6C3B;
+            grid-area: nav;
+        }
+        #main{
+            background-color: #916246;
+            grid-area:main;
+        }
+        #sidebar{
+            background-color: #E66D22;
+            grid-area:sidebar;
+        }
+        #section-1{
+            background-color: #665042;
+            grid-area:section-1;
+        }
+        #section-2{
+            background-color: #3C3531;
+            grid-area:section-2;
+        }
+        #section-3{
+            background-color: #beb696;
+            grid-area:section-3;
+        }
+        #footer{
+            background-color: #bbad9f;
+            grid-area:footer;
+            padding: 10px;
+            text-align: center;
+            justify-content: center;
+            width: ;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div id="nav">Menu</div>
+    <div id="main">Principal</div>
+    <div id="sidebar">Lateral</div>
+    <div id="section-1">Conteúdo1</div>
+    <div id="section-2">Conteúdo2</div>
+    <div id="section-3">Conteúdo3</div>
+    <div id="footer">Rodapé</div>
+    </div>
+</body>
+</html>
