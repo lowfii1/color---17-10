@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: #00ffff;
+        }
+        .cor-nome{background-color: red;}
+
+        .cor-hex{
+            background-color: #FF5733;
+        }
+        .cor-rgb{
+            background-color: rgb(255, 87, 51);
+        }
+        .cor-hsl{
+            background-color: hsl(30, 100%, 60%);
+        }
+    </style>
+</head>
+<body>
+        <h1>Trabalhando com cores</h1>
+    <div class="cor-nome">Cor Nome (red)</div>
+    <div class="cor-hex">Cor Hexadecimal (#FF5733)</div>
+    <div class="cor-rgb">Cor RGB (255, 87, 51)</div>
+    <div class="cor-hsl">Cor HSL (30, 100%, 60%)</div>
+</body>
+</html>
