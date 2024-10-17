@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Com Grid super best mega blaster</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border-radius: 10px;
+        }
+        .container{
+            height: 100vh;
+            display: grid;
+            grid-template-columns: 0.7fr 1.1fr 1.1fr 1.1fr;
+            grid-template-rows: 0.5fr 2fr 1.2fr 0.3fr;
+            grid-template-areas: "nav nav nav nav"
+                                 "sidebar main main main"
+                                 "sidebar section-1 section-2 section-3"
+                                 "sidebar footer footer footer";
+                                 grid-gap: 0.5em;
+                                 font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+                                 font-size: 16px;
+        }
+        #nav{
+            display: flex;
+            background-color: #BB6C3B;
+            grid-area: nav;
+            font-size: 26px;
+            text-align: center;
+        }
+        #main{
+            background-color: #916246;
+            grid-area:main;
+            text-align: left;
+        }
+        #sidebar{
+            background-color: #E66D22;
+            grid-area:sidebar;
+            text-align: left;
+        }
+        #section-1{
+            background-color: #665042;
+            grid-area:section-1;
+            text-align: center;
+        }
+        #section-2{
+            background-color: #3C3531;
+            grid-area:section-2;
+            text-align: center;
+        }
+        #section-3{
+            background-color: #beb696;
+            grid-area:section-3;
+            text-align: center;
+        }
+        #footer{
+            background-color: #bbad9f;
+            grid-area:footer;
+            padding: 10px;
+            text-align: center;
+            justify-content: center;
+        }
+ 
+ 
+    </style>
+</head>
+<body>
+    <div class="container">
+    </div>
+    <div id="main"><h1>Bem-vindo ao Mundo da Tecnologia</h1>
+        <p>A tecnologia está mudando rapidamente e novas inovações estão surgindo o tempo todo. Entre as tecnologias mais recentes, podemos citar a inteligência artificial, o blockchain, a Internet das Coisas (IoT) e a realidade virtual. Essas tecnologias estão transformando a forma como fazemos negócios, nos relacionamos, aprendemos e nos divertimos.
+            A inteligência artificial, por exemplo, já está sendo usada em diversas áreas, desde atendimento ao cliente até diagnóstico médico. O blockchain tem revolucionado a forma como fazemos transações financeiras e a Internet das Coisas está conectando tudo, desde eletrodomésticos até cidades inteiras. A realidade virtual está transformando a maneira como interagimos com o mundo e consumimos conteúdo.</p>
+    </div>  
+     <div id="sidebar"><h1>Sobre o Site</h1>
+        <p>Descubra as inovações tecnológicas que estão moldando o nosso futuro e explore as possibilidades ilimitadas da tecnologia.</p>
+        <h2>Explorar Mais</h2>
+        <a href="https://lp.simpledot.com.br/introducao-a-tecnologia/">Introdução à Tecnologia</a><br>
+        <a href="https://lp.simpledot.com.br/introducao-a-tecnologia/">Inteligência Artificial</a><br>
+        <a href="https://lp.simpledot.com.br/introducao-a-tecnologia/">Internet das Coisas</a><br>
+        <a href="https://lp.simpledot.com.br/introducao-a-tecnologia/">Futuro da Tecnologia</a><br>
+        <h2>Contato</h2>
+        <p>Email: techinfo@empresa.com</p>
+        <p>Telefone: (11) 1234-5678</p>
+    </div>
+    <div id="section-1"><iframe width="560" height="315" src="https://www.youtube.com/embed/f_2rM8A_1-w?si=6stADEcLVUjGwzm3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><br>
+    <div id="section-2"><iframe width="560" height="315" src="https://www.youtube.com/embed/YXwYJyrKK5A?si=duX6_8xJf7S8xghE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><br>
+    <div id="section-3"><iframe width="560" height="315" src="https://www.youtube.com/embed/1_O_T6Aq85E?si=jesrkWCQ2XY7efTn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div><br>
+    <div id="footer"><p>&copy; 2024 Nome da Empresa. Todos os direitos reservados.</p></div>
+    </div>
+</body>
+</html>
